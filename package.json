@@ -1,0 +1,22 @@
+{
+  "name": "my_first_module",
+  "version": "0.1.0",
+
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+
+  },
+  "author": "",
+  "license": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.4"
+  }
+}
