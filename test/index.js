@@ -1,12 +1,12 @@
 var should = require('chai').should(),
-    scapegoat = require('../index'),
-    escape = scapegoat.escape,
-    unescape = scapegoat.unescape;
+  scapegoat = require('../index'),
+  escape = scapegoat.escape,
+  unescape = scapegoat.unescape;
 
-describe('#escape', function() {
-	it('converts & into &amp;', function() {
-		escape('&').should.equal('&amp;');
-	});
+  describe('#escape', function() {
+    it('converts & into &amp;', function() {
+    escape('&').should.equal('&amp;');
+  });
 
   it('converts " into &quot;', function() {
     escape('"').should.equal('&quot;');
